@@ -1,6 +1,6 @@
 const Web = require( "webwebweb" );
 Web.APIs[ "/countdown" ] = ( qs, body, opts ) => {
-  const christmas = new Date( "December 25, 2021 00:00:00" );
+  const christmas = new Date( "December 25, 2022 00:00:00" );
   const today = new Date();
   const diff = christmas - today;
   const days = Math.floor( diff / ( 24 * 60 * 60_000 ) );
